@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CA964D21A5549B600AEB52E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA964D11A5549B600AEB52E /* main.m */; };
+		3CA964DA1A55526000AEB52E /* Printer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA964D91A55526000AEB52E /* Printer.m */; };
+		3CA964DD1A5552D000AEB52E /* Colorprinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA964DC1A5552D000AEB52E /* Colorprinter.m */; };
+		3CA964E01A55533B00AEB52E /* Blackprinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA964DF1A55533B00AEB52E /* Blackprinter.m */; };
+		3CA964E31A5553C600AEB52E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA964E21A5553C600AEB52E /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3CA964CC1A5549B600AEB52E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3CA964CE1A5549B600AEB52E /* 类的多态 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "类的多态"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA964D11A5549B600AEB52E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CA964D81A55526000AEB52E /* Printer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Printer.h; sourceTree = "<group>"; };
+		3CA964D91A55526000AEB52E /* Printer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Printer.m; sourceTree = "<group>"; };
+		3CA964DB1A5552D000AEB52E /* Colorprinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colorprinter.h; sourceTree = "<group>"; };
+		3CA964DC1A5552D000AEB52E /* Colorprinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colorprinter.m; sourceTree = "<group>"; };
+		3CA964DE1A55533B00AEB52E /* Blackprinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blackprinter.h; sourceTree = "<group>"; };
+		3CA964DF1A55533B00AEB52E /* Blackprinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Blackprinter.m; sourceTree = "<group>"; };
+		3CA964E11A5553C600AEB52E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		3CA964E21A5553C600AEB52E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CA964CB1A5549B600AEB52E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CA964C51A5549B600AEB52E = {
+			isa = PBXGroup;
+			children = (
+				3CA964D01A5549B600AEB52E /* 类的多态 */,
+				3CA964CF1A5549B600AEB52E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CA964CF1A5549B600AEB52E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CA964CE1A5549B600AEB52E /* 类的多态 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CA964D01A5549B600AEB52E /* 类的多态 */ = {
+			isa = PBXGroup;
+			children = (
+				3CA964D11A5549B600AEB52E /* main.m */,
+				3CA964D81A55526000AEB52E /* Printer.h */,
+				3CA964D91A55526000AEB52E /* Printer.m */,
+				3CA964DB1A5552D000AEB52E /* Colorprinter.h */,
+				3CA964DC1A5552D000AEB52E /* Colorprinter.m */,
+				3CA964DE1A55533B00AEB52E /* Blackprinter.h */,
+				3CA964DF1A55533B00AEB52E /* Blackprinter.m */,
+				3CA964E11A5553C600AEB52E /* Person.h */,
+				3CA964E21A5553C600AEB52E /* Person.m */,
+			);
+			path = "类的多态";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CA964CD1A5549B600AEB52E /* 类的多态 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CA964D51A5549B600AEB52E /* Build configuration list for PBXNativeTarget "类的多态" */;
+			buildPhases = (
+				3CA964CA1A5549B600AEB52E /* Sources */,
+				3CA964CB1A5549B600AEB52E /* Frameworks */,
+				3CA964CC1A5549B600AEB52E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "类的多态";
+			productName = "类的多态";
+			productReference = 3CA964CE1A5549B600AEB52E /* 类的多态 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CA964C61A5549B600AEB52E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = wyzc;
+				TargetAttributes = {
+					3CA964CD1A5549B600AEB52E = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 3CA964C91A5549B600AEB52E /* Build configuration list for PBXProject "类的多态" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3CA964C51A5549B600AEB52E;
+			productRefGroup = 3CA964CF1A5549B600AEB52E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CA964CD1A5549B600AEB52E /* 类的多态 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CA964CA1A5549B600AEB52E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA964DD1A5552D000AEB52E /* Colorprinter.m in Sources */,
+				3CA964DA1A55526000AEB52E /* Printer.m in Sources */,
+				3CA964E31A5553C600AEB52E /* Person.m in Sources */,
+				3CA964E01A55533B00AEB52E /* Blackprinter.m in Sources */,
+				3CA964D21A5549B600AEB52E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3CA964D31A5549B600AEB52E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3CA964D41A5549B600AEB52E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3CA964D61A5549B600AEB52E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CA964D71A5549B600AEB52E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CA964C91A5549B600AEB52E /* Build configuration list for PBXProject "类的多态" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA964D31A5549B600AEB52E /* Debug */,
+				3CA964D41A5549B600AEB52E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CA964D51A5549B600AEB52E /* Build configuration list for PBXNativeTarget "类的多态" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA964D61A5549B600AEB52E /* Debug */,
+				3CA964D71A5549B600AEB52E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CA964C61A5549B600AEB52E /* Project object */;
+}

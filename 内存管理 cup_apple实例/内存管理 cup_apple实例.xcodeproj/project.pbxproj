@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CF1C35C1A52BBAD00E152D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF1C35B1A52BBAD00E152D7 /* main.m */; };
+		3CF1C3641A52BBF600E152D7 /* Comper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF1C3631A52BBF600E152D7 /* Comper.m */; };
+		3CF1C3671A52BC3900E152D7 /* Cpu.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF1C3661A52BC3900E152D7 /* Cpu.m */; };
+		3CF1C36A1A52BEC600E152D7 /* Itel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF1C3691A52BEC600E152D7 /* Itel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3CF1C3561A52BBAD00E152D7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3CF1C3581A52BBAD00E152D7 /* 内存管理 cup_apple实例 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "内存管理 cup_apple实例"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF1C35B1A52BBAD00E152D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CF1C3621A52BBF600E152D7 /* Comper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comper.h; sourceTree = "<group>"; };
+		3CF1C3631A52BBF600E152D7 /* Comper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comper.m; sourceTree = "<group>"; };
+		3CF1C3651A52BC3900E152D7 /* Cpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cpu.h; sourceTree = "<group>"; };
+		3CF1C3661A52BC3900E152D7 /* Cpu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cpu.m; sourceTree = "<group>"; };
+		3CF1C3681A52BEC600E152D7 /* Itel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Itel.h; sourceTree = "<group>"; };
+		3CF1C3691A52BEC600E152D7 /* Itel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Itel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CF1C3551A52BBAD00E152D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CF1C34F1A52BBAD00E152D7 = {
+			isa = PBXGroup;
+			children = (
+				3CF1C35A1A52BBAD00E152D7 /* 内存管理 cup_apple实例 */,
+				3CF1C3591A52BBAD00E152D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CF1C3591A52BBAD00E152D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CF1C3581A52BBAD00E152D7 /* 内存管理 cup_apple实例 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CF1C35A1A52BBAD00E152D7 /* 内存管理 cup_apple实例 */ = {
+			isa = PBXGroup;
+			children = (
+				3CF1C35B1A52BBAD00E152D7 /* main.m */,
+				3CF1C3621A52BBF600E152D7 /* Comper.h */,
+				3CF1C3631A52BBF600E152D7 /* Comper.m */,
+				3CF1C3651A52BC3900E152D7 /* Cpu.h */,
+				3CF1C3661A52BC3900E152D7 /* Cpu.m */,
+				3CF1C3681A52BEC600E152D7 /* Itel.h */,
+				3CF1C3691A52BEC600E152D7 /* Itel.m */,
+			);
+			path = "内存管理 cup_apple实例";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CF1C3571A52BBAD00E152D7 /* 内存管理 cup_apple实例 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF1C35F1A52BBAD00E152D7 /* Build configuration list for PBXNativeTarget "内存管理 cup_apple实例" */;
+			buildPhases = (
+				3CF1C3541A52BBAD00E152D7 /* Sources */,
+				3CF1C3551A52BBAD00E152D7 /* Frameworks */,
+				3CF1C3561A52BBAD00E152D7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "内存管理 cup_apple实例";
+			productName = "内存管理 cup_apple实例";
+			productReference = 3CF1C3581A52BBAD00E152D7 /* 内存管理 cup_apple实例 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CF1C3501A52BBAD00E152D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = wyzc;
+				TargetAttributes = {
+					3CF1C3571A52BBAD00E152D7 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 3CF1C3531A52BBAD00E152D7 /* Build configuration list for PBXProject "内存管理 cup_apple实例" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3CF1C34F1A52BBAD00E152D7;
+			productRefGroup = 3CF1C3591A52BBAD00E152D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CF1C3571A52BBAD00E152D7 /* 内存管理 cup_apple实例 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CF1C3541A52BBAD00E152D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF1C3671A52BC3900E152D7 /* Cpu.m in Sources */,
+				3CF1C35C1A52BBAD00E152D7 /* main.m in Sources */,
+				3CF1C3641A52BBF600E152D7 /* Comper.m in Sources */,
+				3CF1C36A1A52BEC600E152D7 /* Itel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3CF1C35D1A52BBAD00E152D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3CF1C35E1A52BBAD00E152D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3CF1C3601A52BBAD00E152D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CF1C3611A52BBAD00E152D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CF1C3531A52BBAD00E152D7 /* Build configuration list for PBXProject "内存管理 cup_apple实例" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF1C35D1A52BBAD00E152D7 /* Debug */,
+				3CF1C35E1A52BBAD00E152D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF1C35F1A52BBAD00E152D7 /* Build configuration list for PBXNativeTarget "内存管理 cup_apple实例" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF1C3601A52BBAD00E152D7 /* Debug */,
+				3CF1C3611A52BBAD00E152D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CF1C3501A52BBAD00E152D7 /* Project object */;
+}
